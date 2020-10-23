@@ -1,0 +1,9 @@
+.cantidad label{
+    display: inline-block;
+}
+.cantidad input{
+    float: right;
+    width: 60%;
+
+    
+}
