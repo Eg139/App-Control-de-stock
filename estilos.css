@@ -3,7 +3,19 @@
 }
 .cantidad input{
     float: right;
-    width: 60%;
-
+    width: 60%;   
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    border: solid 1px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.stock{
+    width: 100%;
     
 }
