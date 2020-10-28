@@ -1,3 +1,9 @@
+//Implementar mail de usuario como idMail
+//Usar idMail para mostrar el stock creado por esa persona
+//agregar idMail en el objeto producto para poder filtrarlos
+let idMail;
+
+
 const db = firebase.firestore();
 
 const taskform = document.getElementById("task-form");
@@ -17,6 +23,7 @@ db.collection("Productos").doc().set({
         talle_xl:  parseInt(talle_xl,10),
         description
     });
+
 const getTask = () => 
     db.collection('Productos').get();
 
