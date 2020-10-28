@@ -2,5 +2,5 @@
 
 ![](src/appStock.PNG)
 
-# Signin with email, google and facebook
+# Sign In and Sign Up with email, google and facebook
 ![](src/auth.PNG)
